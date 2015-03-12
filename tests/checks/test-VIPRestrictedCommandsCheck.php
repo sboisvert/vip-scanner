@@ -78,6 +78,7 @@ class VIPRestrictedCommandsTest extends CheckTestBase {
 			'wp_get_object_terms',
 			'wp_get_post_terms',
 			'get_posts',
+			'get_children',
 			'wp_get_recent_posts',
 			'wpcom_uncached_get_post_meta',
 			'wpcom_uncached_get_post_by_meta'
