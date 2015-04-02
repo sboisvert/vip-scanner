@@ -210,6 +210,11 @@ class DeprecatedFunctionsCheck extends CodeCheck {
 			'like_escape'               => '$wpdb->esc_like()',
 			'url_is_accessable_via_ssl' => '',
 			'get_all_category_ids'      => 'get_terms()',
+			// 4.1
+			'WP_Customize_Image_Control::prepare_control' => '',
+			'WP_Customize_Image_Control::add_tab' => '',
+			'WP_Customize_Image_Control::remove_tab' => '',
+			'WP_Customize_Image_Control::print_tab_image' => '',
 			/**
 			 * wp-admin
 			 */
